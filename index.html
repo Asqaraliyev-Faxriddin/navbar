@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manage</title>
+  <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-white relative overflow-x-hidden">
+    
+  <nav class="py-6 relative z-10">
+    <div class="container max-w-[1200px] m-auto flex items-center justify-between">
+      <div>
+        <img src="./images/logo.svg" alt="Manage logo" class="h-6">
+      </div>
+      <button id="menu-btn" class="block md:hidden focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+  
+      <ul id="menu" class="hidden absolute top-20 left-0 w-full bg-white flex-col gap-4 p-6 text-center shadow md:static md:flex md:flex-row md:gap-8 md:shadow-none md:w-auto md:bg-transparent">
+        <li><a href="#" class="hover:text-orange-500">Pricing</a></li>
+        <li><a href="#" class="hover:text-orange-500">Product</a></li>
+        <li><a href="#" class="hover:text-orange-500">About Us</a></li>
+        <li><a href="#" class="hover:text-orange-500">Careers</a></li>
+        <li><a href="#" class="hover:text-orange-500">Community</a></li>
+        <li>
+          <a href="#" class="bg-orange-500 text-white px-6 py-2 rounded-full shadow hover:opacity-80 inline-block md:hidden">
+            Get Started
+          </a>
+        </li>
+      </ul>
+  
+      <a href="#" class="bg-orange-500 text-white px-6 py-2 rounded-full shadow hover:opacity-80 hidden md:inline-block">
+        Get Started
+      </a>
+    </div>
+  </nav>
+  
+
+  <img src="./images/bg-tablet-pattern.svg" class="absolute top-[-340px] left-[700px] w-[800px] z-0 max-[674px]:hidden" alt="">
+
+  <section class="py-16 relative z-10">
+    <div class="container max-w-[1200px] m-auto flex items-center justify-between gap-12 max-[674px]:flex-col-reverse max-[674px]:text-center">
+      
+      <div class="flex-1">
+        <h1 class="text-5xl font-bold leading-tight mb-6 max-[674px]:text-3xl">
+          Bring everyone<br>together to build<br>better products
+        </h1>
+        <p class="text-gray-500 mb-8 max-w-md m-auto">
+          Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.
+        </p>
+        <a href="#" class="bg-orange-500 text-white px-6 py-3 rounded-full shadow hover:opacity-80">
+          Get Started
+        </a>
+      </div>
+
+      <div class="flex-1 relative max-[674px]:flex max-[674px]:justify-center">
+        <div class="absolute -top-40 left-10 max-[674px]:static max-[674px]:w-full">
+          <img src="./images/illustration-intro.svg" class="w-full max-[674px]:w-[90%]" alt="">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="container max-w-[1200px] m-auto flex gap-20 max-[674px]:flex-col max-[674px]:text-center">
+      <div class="flex-1">
+        <h2 class="text-4xl font-bold mb-6 max-[674px]:text-2xl">
+          What's different about Manage?
+        </h2>
+        <p class="text-gray-500">
+          Manage provides all the functionality your team needs, without the complexity. 
+          Our software is tailor-made for modern digital product teams.
+        </p>
+      </div>
+  
+      <div class="flex-1 flex flex-col gap-10">
+        
+        <div class="flex flex-col max-[674px]:items-center">
+          <div class="flex items-start gap-6 max-[674px]:flex-col max-[674px]:items-center">
+            <span class="bg-orange-500 text-white px-4 py-1 rounded-full font-bold">01</span>
+            <div>
+              <h3 class="font-bold mb-2">Track company-wide progress</h3>
+              <p class="text-gray-500 text-sm">
+                See how your day-to-day tasks fit into the wider vision. Go from tracking progress 
+                at the milestone level all the way down to the smallest of details. Never lose sight of the bigger picture again.
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="flex flex-col max-[674px]:items-center">
+          <div class="flex items-start gap-6 max-[674px]:flex-col max-[674px]:items-center">
+            <span class="bg-orange-500 text-white px-4 py-1 rounded-full font-bold">02</span>
+            <div>
+              <h3 class="font-bold mb-2">Advanced built-in reports</h3>
+              <p class="text-gray-500 text-sm">
+                Set internal delivery estimates and track progress toward company goals. Our 
+                customisable dashboard helps you build out the reports you need to keep key stakeholders informed.
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="flex flex-col max-[674px]:items-center">
+          <div class="flex items-start gap-6 max-[674px]:flex-col max-[674px]:items-center">
+            <span class="bg-orange-500 text-white px-4 py-1 rounded-full font-bold">03</span>
+            <div>
+              <h3 class="font-bold mb-2">Everything you need in one place</h3>
+              <p class="text-gray-500 text-sm">
+                Stop jumping from one service to another to communicate, store files, track tasks and 
+                share documents. Manage offers an all-in-one team productivity solution.
+              </p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white text-center">
+    <div class="container max-w-[1200px] mx-auto">
+      <h2 class="text-3xl font-bold mb-12 max-[674px]:text-2xl">
+        What's Different About Manage?
+      </h2>
+  
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div class="bg-gray-50 rounded-lg p-6 flex flex-col items-center">
+          <img src="./images/avatar-anisha.png" alt="Anisha Li" class="w-16 h-16 rounded-full -mt-12 mb-4">
+          <h3 class="font-bold mb-3">Anisha Li</h3>
+          <p class="text-gray-500 text-sm">
+            “Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”
+          </p>
+        </div>
+  
+        <div class="bg-gray-50 rounded-lg p-6 flex flex-col items-center">
+          <img src="./images/avatar-ali.png" alt="Ali Bravo" class="w-16 h-16 rounded-full -mt-12 mb-4">
+          <h3 class="font-bold mb-3">Ali Bravo</h3>
+          <p class="text-gray-500 text-sm">
+            “We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”
+          </p>
+        </div>
+  
+        <div class="bg-gray-50 rounded-lg p-6 flex flex-col items-center">
+          <img src="./images/avatar-richard.png" alt="Richard Watts" class="w-16 h-16 rounded-full -mt-12 mb-4">
+          <h3 class="font-bold mb-3">Richard Watts</h3>
+          <p class="text-gray-500 text-sm">
+            “Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”
+          </p>
+        </div>
+      </div>
+  
+      <a href="#" class="bg-orange-500 text-white px-6 py-3 rounded-full shadow hover:opacity-80">
+        Get Started
+      </a>
+    </div>
+  </section>
+  
+  <section class="bg-orange-500 py-12 mt-20 relative">
+    <div class="container max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between text-white max-[674px]:text-center max-[674px]:gap-4">
+      <h2 class="text-3xl font-bold mb-6 md:mb-0 max-[674px]:text-2xl">
+        Simplify how your team works today
+      </h2>
+      <a href="#" class="bg-orange-500 text-white px-6 py-3 rounded-full shadow hover:opacity-80 md:px-4 md:py-2">
+        Get Started
+      </a>
+      
+    </div>
+  </section>
+  
+<footer class="bg-[#1f1f1f] text-white py-12">
+    <div class="container max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-start gap-8     max-[674px]:items-center max-[674px]:text-center">
+  
+      <div class="flex flex-col items-center md:items-start gap-6">
+        <img src="./images/logo.svg" alt="Manage Logo" class="h-6">
+        <div class="flex gap-4">
+          <a href="#"><img src="./images/icon-facebook.svg" alt="Facebook"></a>
+          <a href="#"><img src="./images/icon-youtube.svg" alt="YouTube"></a>
+          <a href="#"><img src="./images/icon-twitter.svg" alt="Twitter"></a>
+          <a href="#"><img src="./images/icon-pinterest.svg" alt="Pinterest"></a>
+          <a href="#"><img src="./images/icon-instagram.svg" alt="Instagram"></a>
+        </div>
+      </div>
+  
+      <div class="flex gap-20 max-[674px]:flex-col max-[674px]:gap-6">
+        <div class="flex flex-col gap-2 text-sm text-gray-300">
+          <a href="#" class="hover:text-orange-500">Home</a>
+          <a href="#" class="hover:text-orange-500">Pricing</a>
+          <a href="#" class="hover:text-orange-500">Products</a>
+          <a href="#" class="hover:text-orange-500">About</a>
+        </div>
+        <div class="flex flex-col gap-2 text-sm text-gray-300">
+          <a href="#" class="hover:text-orange-500">Careers</a>
+          <a href="#" class="hover:text-orange-500">Community</a>
+          <a href="#" class="hover:text-orange-500">Privacy Policy</a>
+        </div>
+      </div>
+  
+      <div class="flex flex-col items-center md:items-end gap-6 w-full md:w-auto">
+        <form class="flex overflow-hidden rounded-full bg-white max-[674px]:w-full">
+          <input type="text" placeholder="Updated your box" class="px-4 py-2 text-black outline-none w-32 max-[674px]:flex-1 max-[674px]:w-auto">
+          <button class="bg-white text-black px-6 py-2 hover:opacity-80 md:px-4 md:py-1.5">
+            Go
+          </button>
+          
+        </form>
+        <p class="text-gray-400 text-sm">
+          Copyright © 2022, All Rights Reserved
+        </p>
+      </div>
+  
+    </div>
+  </footer>
+  
+
+  
+</body>
+</html>
+
